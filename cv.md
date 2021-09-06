@@ -17,3 +17,16 @@
 * **js**:    basic level
 * **git**:   basic level
 * **react**: basic level
+## Code example
+
+```javascript
+console.log('Hello World!')
+```
+## Work experience
+
+* I have little experience in layout and development for educational purposes
+
+## Education
+
+* 2010 - 2014 Belarusian Academy of Telecommunications(technical school) specialty: technicist
+* English language knowledge: A2 level
