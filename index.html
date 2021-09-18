@@ -2,108 +2,118 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>cv-html-css</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/routeros.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>cv-html-css</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <h1 class="header__heading">Alexey Romashko</h1>
-            <div class="header__content">
-                <div class="header__photo_wrapper">
-                    <figure>
-                        <img src="./img/photo.jpg" alt="photo">
-                        <figcaption>photo</figcaption>
-                    </figure>
-                </div>
-                <div class="header__contacts_wrapper">
-                    <ul>
-                        <li>Address: Minsk, Belarus</li>
-                        <li>Mobile: +375 25 5304745</li>
-                        <li>E-mail: anticherq@gmail.com</li>
-                    </ul>
-                </div>
-            </div>
+  <header class="header">
+    <div class="container">
+      <h1 class="header__heading">Alexey Romashko</h1>
+      <div class="header__content">
+        <div class="header__photo_wrapper">
+          <figure>
+            <img src="img/photo.jpg" alt="photo">
+            <figcaption>photo</figcaption>
+          </figure>
         </div>
-    </header>
-    <main>
-        <section class="about">
-            <div class="container">
-                <h2 class="heading about__heading">About myself</h2>
-                <div class="about__content">
-                    <ul>
-                        <li>My goal is to learn the profession of front-end developer.</li>
-                        <li>My main priority is to achieve my goal. I think this is my strong side</li>
-                        <li>Unfortunately I have no experience in IT, but I study and learn new things fast enough.</li>
-                        <li>I am more a practitioner than a theorist</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="skills">
-            <div class="container">
-                <h3 class="heading skills__heading">Skills</h3>
-                <div class="skills__content">
-                    <ul>
-                        <li><mark>html</mark>: basic level</li>
-                        <li><mark>css</mark>: basic level</li>
-                        <li><mark>js</mark>: basic level</li>
-                        <li><mark>git</mark>: basic level</li>
-                        <li><mark>react</mark>: basic level</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="code_example">
-            <div class="container">
-                <h4 class="heading code_example__heading">Code example</h4>
-                <div class="code_example__content">
-                    <div class="code_example__code_wrapper">
-                        <code>
-                        console.log('Hello World!')
-                    </code>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="work_experience">
-            <div class="container">
-                <h5 class="heading work_experience__heading">Work experience</h5>
-                <div class="education__content">
-                    <ul>
-                        <li>I have little experience in layout and development for educational purposes</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="education">
-            <div class="container">
-                <h6 class="heading education__heading">Education</h6>
-                <div class="education__content">
-                    <ul>
-                        <li>2010 - 2014 Belarusian Academy of Telecommunications(technical school) specialty: technicist
-                        </li>
-                        <li>English language knowledge: A2</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__rsschool"><a href="https://rs.school/js/"></a></div>
-                <div class="footer__create_year">2021</div>
-                <div class="footer__my_github"><a href="https://github.com/anticher/">My github</a></div>
-            </div>
+        <address class="header__contacts_wrapper">
+          <ul>
+            <li>Address: Minsk, Belarus</li>
+            <li>Mobile: <a href="tel:+375255304745">+375 25 5304745</a></li>
+            <li>E-mail: <a href="mailto:anticherq@gmail.com">anticherq@gmail.com</a></li>
+          </ul>
+        </address>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="about">
+      <div class="container">
+        <h2 class="heading about__heading">About myself</h2>
+        <div class="about__content">
+          <ul>
+            <li>My goal is to learn the profession of front-end developer.</li>
+            <li>My main priority is to achieve my goal. I think this is my strong side</li>
+            <li>Unfortunately I have no experience in IT, but I study and learn new things fast enough.</li>
+            <li>I am more a practitioner than a theorist</li>
+          </ul>
         </div>
-    </footer>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="container">
+        <h3 class="heading skills__heading">Skills</h3>
+        <div class="skills__content">
+          <ul>
+            <li><mark>html</mark>: basic level</li>
+            <li><mark>css</mark>: basic level</li>
+            <li><mark>js</mark>: basic level</li>
+            <li><mark>git</mark>: basic level</li>
+            <li><mark>react</mark>: basic level</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="code_example">
+      <div class="container">
+        <h4 class="heading code_example__heading">Code example</h4>
+        <div class="code_example__content">
+          <div class="code_example__code_wrapper">
+            <pre>
+                <code>
+for (let i = 0; i &lt; 10; i++) {
+  if (i % 2) {
+    console.log(i);
+  }                 
+}
+              </code>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work_experience">
+      <div class="container">
+        <h5 class="heading work_experience__heading">Work experience</h5>
+        <div class="education__content">
+          <ul>
+            <li>I have little experience in layout and development for educational purposes</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="education">
+      <div class="container">
+        <h6 class="heading education__heading">Education</h6>
+        <div class="education__content">
+          <ul>
+            <li>2010 - 2014 Belarusian Academy of Telecommunications(technical school) specialty: technicist
+            </li>
+            <li>English language knowledge: A2</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__rsschool"><a href="https://rs.school/js/"></a></div>
+        <div class="footer__create_year">2021</div>
+        <div class="footer__my_github"><a href="https://github.com/anticher/">My github</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <!-- <script src="js/script.js"></script> -->
 </body>
 
 </html>
